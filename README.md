@@ -27,14 +27,14 @@ In this project you will:
  align="center" width="400" height="800"/>
  
  <img src="https://firebasestorage.googleapis.com/v0/b/journalapp-985e6.appspot.com/o/Baking%2FScreenshot_20181029-234420_Baking%20App.jpg?alt=media&token=36625b3c-442e-4f11-a513-e2adbb4bbf46"
- align="center" width="400" height="800"/>
+ align="center" width="800" height="400"/>
  
  
  <img src="https://firebasestorage.googleapis.com/v0/b/journalapp-985e6.appspot.com/o/Baking%2Ftab%20main.png?alt=media&token=e4b52f67-a13e-461b-ae5b-e5fc66c8c580"
- align="center" width="400" height="800"/>
+ align="center" width="800" height="400"/>
 
  <img src="https://firebasestorage.googleapis.com/v0/b/journalapp-985e6.appspot.com/o/Baking%2Ftab%20detail.png?alt=media&token=169ea259-9652-490f-b777-9df5c0707b5e"
- align="center" width="400" height="800"/>
+ align="center" width="800" height="400"/>
  
  
  
