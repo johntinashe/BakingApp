@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:name="com.github.johntinashe.bakingapp.RecipeListFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecipeListActivity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ingredients"
+                android:textSize="20sp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ingredients_tv"
+                android:textSize="16sp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"/>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/recipe_list"
+        android:name="com.github.johntinashe.bakingapp.RecipeListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.github.johntinashe.bakingapp.RecipeListActivity"/>
+
+</LinearLayout>

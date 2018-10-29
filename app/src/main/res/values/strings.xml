@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Baking App</string>
+    <string name="title_recipe_list">Recipes</string>
+    <string name="title_recipe_detail">Recipe Detail</string>
+    <string name="error_no_details">No data found!</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="no_video">no video</string>
+    <string name="video_available">video available</string>
+</resources>
