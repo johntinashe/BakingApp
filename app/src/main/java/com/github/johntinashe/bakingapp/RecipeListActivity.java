@@ -60,6 +60,10 @@ public class RecipeListActivity extends AppCompatActivity {
 
         ButterKnife.bind(this);
 
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        }
+
         mRecyclerView.setHasFixedSize(true);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
 
@@ -118,7 +122,7 @@ public class RecipeListActivity extends AppCompatActivity {
         Toast.makeText(this, R.string.error_no_details, Toast.LENGTH_SHORT).show();
     }
 
-    private void showSteps(ArrayList<Step> steps) {
+    private void showSteps(final ArrayList<Step> steps) {
 
         SlimAdapter slimAdapter = SlimAdapter.create()
                 .register(R.layout.step_single_item, new SlimInjector<Step>() {
@@ -157,6 +161,7 @@ public class RecipeListActivity extends AppCompatActivity {
                                     } else {
                                         Intent intent = new Intent(getApplicationContext(), RecipeDetailActivity.class);
                                         intent.putExtra("step", data);
+                                        intent.putParcelableArrayListExtra("steps", steps);
                                         startActivity(intent);
                                     }
 

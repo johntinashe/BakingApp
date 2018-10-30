@@ -6,4 +6,6 @@
     <string name="ingredients">Ingredients</string>
     <string name="no_video">no video</string>
     <string name="video_available">video available</string>
+    <string name="previous_btn">previous button</string>
+    <string name="next_button">next button</string>
 </resources>
